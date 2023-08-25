@@ -1,0 +1,10 @@
+diff --git a/pkg/sinon-esm.js b/pkg/sinon-esm.js
+index a0f16296d89496482ea5bd5ada8a31de4b42f0c5..8f24989f038ddeb02cd718c0e6b2efdf15e6e526 100644
+--- a/pkg/sinon-esm.js
++++ b/pkg/sinon-esm.js
+@@ -17833,4 +17833,5 @@ export { _createFakeServerWithClock as createFakeServerWithClock };
+ const _addBehavior = sinon.addBehavior;
+ export { _addBehavior as addBehavior };
+ const _promise = sinon.promise;
++// TEST
+ export { _promise as promise };

@@ -1,6 +1,12 @@
 {
     "private": true,
     "dependencies": {
-        "meaning-of-life": "1.0.0"
+        "meaning-of-life": "1.0.0",
+        "sinon": "15.0.4"
+    },
+    "pnpm": {
+        "patchedDependencies": {
+            "sinon@15.0.4": "patches/sinon@15.0.4.patch"
+        }
     }
 }
