@@ -48,9 +48,9 @@ def rules_js_dev_dependencies():
 
     http_archive(
         name = "aspect_rules_lint",
-        sha256 = "6e32df708b40ea8c6d4482eeaf8fd6afaa8798d0028654ba25b667b5aee5707c",
-        strip_prefix = "rules_lint-0.7.0",
-        url = "https://github.com/aspect-build/rules_lint/releases/download/v0.7.0/rules_lint-v0.7.0.tar.gz",
+        sha256 = "e8b26aab8d587e596d1463545f799a601edfb5f31b84db3f39a751f03407e2e5",
+        strip_prefix = "rules_lint-0.17.0",
+        url = "https://github.com/aspect-build/rules_lint/releases/download/v0.17.0/rules_lint-v0.17.0.tar.gz",
     )
 
     http_archive(
